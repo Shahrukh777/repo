@@ -1,0 +1,60 @@
+
+.container {
+    background-image: url("pp.jpg");
+    background-size: cover;
+    background-size: 300px 350px;
+    background-repeat: no-repeat;
+    max-width: 80%;
+    margin: auto;
+    border: 3px solid black;
+    border-radius: 10px;
+    width: 300px;
+    height: 350px;
+    overflow: hidden;
+}
+
+.main{
+    font-family: 'OpenSans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+}
+
+
+h1 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: 1px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#increment-btn {
+    background: #2C2891;
+}
+
+#save{
+    background: #1C7947;
+}
+
+#reset{
+    background-color: darkred;
+}
+
+#saved{
+    font-weight: bold;
+    color: antiquewhite;
+    word-wrap: break-word;
+}
